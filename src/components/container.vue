@@ -1,17 +1,17 @@
 <template>
   <div class="app">
-    <mainpage></mainpage>
+    <sidePanel></sidePanel>
   </div>
 </template>
 
 <script>
-import mainpage from "@/components/mainContainer.vue"
+import sidePanel from "@/components/sidePanel.vue"
 import mainpageMixin from "@/components/library/mainpageMixin"
 
 export default {
   mixins: [ mainpageMixin ],
   components: {
-    mainpage
+    sidePanel
   }
 }
 </script>
